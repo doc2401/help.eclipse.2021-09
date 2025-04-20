@@ -1,0 +1,767 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.gef.zest.doc;singleton:=true
+Bundle-Name: GEF Zest Developer Documentation
+Bundle-Version: 5.1.2.202109070202
+Built-By: jenkins
+Require-Bundle: org.eclipse.core.commands;bundle-version="[3.6.0,4.0.0)"
+ ;resolution:=optional,org.eclipse.ui.views;bundle-version="[3.6.0,4.0.0
+ )";resolution:=optional,org.eclipse.gef.common;bundle-version="[5.0.0,6
+ .0.0)";resolution:=optional,org.eclipse.gef.geometry;bundle-version="[5
+ .0.0,6.0.0)";resolution:=optional,org.eclipse.gef.fx;bundle-version="[5
+ .0.0,6.0.0)";resolution:=optional,org.eclipse.gef.fx.swt;bundle-version
+ ="[5.0.0,6.0.0)";resolution:=optional,org.eclipse.gef.mvc.fx;bundle-ver
+ sion="[5.0.0,6.0.0)";resolution:=optional,org.eclipse.gef.mvc.fx.ui;bun
+ dle-version="[5.0.0,6.0.0)";resolution:=optional,org.eclipse.gef.graph;
+ bundle-version="[5.0.0,6.0.0)";resolution:=optional,org.eclipse.gef.lay
+ out;bundle-version="[5.0.0,6.0.0)";resolution:=optional,org.eclipse.pla
+ tform.doc.isv;bundle-version="[3.0.0,5.0.0)",org.eclipse.gef.common.doc
+ ;bundle-version="[5.0.0,6.0.0)",org.eclipse.gef.fx.doc;bundle-version="
+ [5.0.0,6.0.0)",org.eclipse.gef.geometry.doc;bundle-version="[5.0.0,6.0.
+ 0)",org.eclipse.gef.graph.doc;bundle-version="[5.0.0,6.0.0)",org.eclips
+ e.gef.layout.doc;bundle-version="[5.0.0,6.0.0)",org.eclipse.gef.mvc.doc
+ ;bundle-version="[5.0.0,6.0.0)"
+Bundle-ManifestVersion: 2
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/gef.git;pat
+ h="org.eclipse.gef.zest.doc";commitId=5f2fc47c4f9b838c39959d26f24e79e6f
+ 5cb4940
+Bundle-Vendor: Eclipse GEF
+Import-Package: com.google.common.collect;version="12.0.0";resolution:=o
+ ptional,com.google.common.reflect;version="12.0.0";resolution:=optional
+ ,com.google.inject;version="[1.3.0,1.4.0)";resolution:=optional,com.goo
+ gle.inject.binder;version="[1.3.0,1.4.0)";resolution:=optional,com.goog
+ le.inject.multibindings;version="[1.3.0,1.4.0)";resolution:=optional,co
+ m.google.inject.util;version="[1.3.0,1.4.0)";resolution:=optional
+Created-By: Apache Maven 3.6.3
+Build-Jdk: 1.8.0_202
+
+Name: reference/api/org/eclipse/gef/zest/fx/models/NavigationModel.Viewp
+ ortState.html
+SHA-256-Digest: jDTB55Vp6wZZcsGIVfMgf/jQ6THb7EM67Wi7K6MPsVE=
+
+Name: plugin.xml
+SHA-256-Digest: HemXKHILa8j18+srfqRHo6WKBwGiWH0x/Sq2vZq9Yrs=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/class-use/LabelOffs
+ etSupport.html
+SHA-256-Digest: JvWhI85BEsKmolP0JzjWwEUKAQsmR3ie3J8P6N8ylCU=
+
+Name: reference/api/org/eclipse/gef/zest/fx/models/HidingModel.html
+SHA-256-Digest: YrTPtGsaNf6r4eHhklXLiKCbFAZ9Cb9M5dWD0hRvT8I=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/HideOnTypeHandler.h
+ tml
+SHA-256-Digest: um2aeKNTkYITg7bPtlKryhBTr2DZhXxBTU+hp2RXuwQ=
+
+Name: reference/api/org/eclipse/gef/zest/fx/operations/package-use.html
+SHA-256-Digest: pOYdZ7PlUy1QzTlJ556S07eAg0lpXcLz/BoyNnQ8eTw=
+
+Name: reference/api/org/eclipse/gef/zest/fx/policies/package-tree.html
+SHA-256-Digest: cvInPHedXsH7zm/6Zz4fNfEilstBazdXgTN2oNDWi0s=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/package-frame.html
+SHA-256-Digest: gdid3gjWSUNsxbHg5ZVgxR8umHHfHwsshXzw8mgtZXc=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/NodePart.html
+SHA-256-Digest: v0WebzkAk6Lc/lwGPNwhHJUfzygfK8xkVNuCo/UGaTg=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/HideFirstAnchorageO
+ nClickHandler.html
+SHA-256-Digest: brV5ttwC0m7QZocJcktucF1nug0Kp4xXpBtOOhGJimE=
+
+Name: reference/api/org/eclipse/gef/zest/fx/operations/NavigateOperation
+ .html
+SHA-256-Digest: 2k4DZr0rgvyEUXSxsfvO6MWCimOXMLJ5IaMFHOYVYy8=
+
+Name: reference/api/org/eclipse/gef/zest/fx/models/package-summary.html
+SHA-256-Digest: HdZuiw9H46JTY0rwbDpxXxRxv0ncFMcQFE4isRGrn7U=
+
+Name: book.css
+SHA-256-Digest: 4O//J9yMdWIprxPb3Iae60TAdJ1yKsYFcVn0darwoW8=
+
+Name: about.ini
+SHA-256-Digest: dJnpCx3Bbij7WuygdxEHHHdTDeteCiPLA3svbr565Tw=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/class-use/EdgePart.htm
+ l
+SHA-256-Digest: 6suiebsrgWvlckjjkfdvRtTvWyrL2tjbZ6O0/S4/xT0=
+
+Name: reference/api/index-files/index-12.html
+SHA-256-Digest: LsA3B5JSWN1S4oUHjBi/55wTMsubjR2uFiccUNHcAV0=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/ShowHiddenNeighbors
+ OnTypeHandler.html
+SHA-256-Digest: JBgWA8U9QLh9S6H/6n+o1Xo0hIGZ+DooaMT59tV6JiU=
+
+Name: reference/wiki/images/zest/GEF-Zest-FX-parts-root.png
+SHA-256-Digest: omfcryL1mPboSkZib415iPplxfNPDI61go2LeDHNAYk=
+
+Name: reference/wiki/Zest-toc.xml
+SHA-256-Digest: 7Dcv683GmAy7RcT3DO1ZjQvgtK9l6EU5fldpu/x7G10=
+
+Name: reference/api/org/eclipse/gef/zest/fx/jface/class-use/ZestContentV
+ iewer.html
+SHA-256-Digest: pnayIF6KGYeXwSjK9c4CQkXZRESxmiGW4iyTCRQhK/I=
+
+Name: reference/api/org/eclipse/gef/zest/fx/operations/package-tree.html
+SHA-256-Digest: KUBZmIgYRxNvDAle3gS//PL8QfF0U65QpD/DaXsW3S8=
+
+Name: reference/api/index-files/index-5.html
+SHA-256-Digest: weI5WqfewlUfBKudSO3UwSuAwd2gRz0yB4h4FK0HHX0=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/ZestFxSelectionHandleP
+ artFactory.html
+SHA-256-Digest: ZNWXe/dKl8TvLkjfXdNpe3eN6MW09cgf2bW7BREMAGs=
+
+Name: reference/wiki/images/zest/GEF-Zest-FX-root.jpg.png
+SHA-256-Digest: zdM30bhkSNq7vOBwxRtoR3pxQjCRskHpmS7XFMs4KuU=
+
+Name: reference/api/org/eclipse/gef/zest/fx/jface/IGraphAttributesProvid
+ er.html
+SHA-256-Digest: P08Khoa1krLgvKYe+lXqP3s3/WecGYMlcl/mZ4vpKZU=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/class-use/ZestFxConten
+ tPartFactory.html
+SHA-256-Digest: cLwsUf84SrfX0fTYu9JCB+P17sGX8o2+3YexW/zU2HY=
+
+Name: reference/api/index-files/index-14.html
+SHA-256-Digest: DWAK6eSitb7r7rjsI86XYhYk2ZNWDpttPpOj5MYdcIw=
+
+Name: reference/api/org/eclipse/gef/zest/fx/package-summary.html
+SHA-256-Digest: tEXVbQL9KbkVx6YE+QvRypYWavrzMdWvLQif9vXwKZw=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/AbstractLabelPart.html
+SHA-256-Digest: xETY0ceo1wI4d2CMLOTTrWML9Tee+ht7tCFlikh57os=
+
+Name: reference/api/org/eclipse/gef/zest/fx/models/package-frame.html
+SHA-256-Digest: hh2aVN7e69z1bd7HPM99NlEdGk6+0b1LGyJ2h/y7BGc=
+
+Name: reference/api/org/eclipse/gef/zest/fx/operations/package-summary.h
+ tml
+SHA-256-Digest: JYqvj8r+XImU+kU09+fP3qNaOK1Eiy91l8ryAavzsi4=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/class-use/ZestFxHoverI
+ ntentHandlePartFactory.html
+SHA-256-Digest: 4SOgEYnQhFerZzwqM6eiFYrfN4OY+UHZKMrXtDwMklM=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/NodeHidingBehavior
+ .html
+SHA-256-Digest: L/o6RdLyBtVVaopIRA0jImqkUS/z9vCBHHkLsjBWnYo=
+
+Name: about.mappings
+SHA-256-Digest: nvytQzv+mUCLZg18xhH/F3CnC4my7pwELTuQjDdnrkc=
+
+Name: reference/api/org/eclipse/gef/zest/fx/operations/package-frame.htm
+ l
+SHA-256-Digest: dGNVnk5T4p91KISNZpiYThCAQ/0cuYqEmtyzr3ZnSNo=
+
+Name: reference/api/index-files/index-9.html
+SHA-256-Digest: OXCrvy6tTkoawX9O6FI00W/nVAtSFVr6VV/xP8jfE74=
+
+Name: reference/api/index-files/index-3.html
+SHA-256-Digest: NgiqW0YYB6kEhZtnZ5taXQVvJ4PfgPn3htyBJAiLxTc=
+
+Name: reference/api/org/eclipse/gef/zest/fx/providers/NodePartAnchorProv
+ ider.html
+SHA-256-Digest: a1ulzK9f70o5AnB7vt7uRvkP18P52tQNnrSoQ+PgZD4=
+
+Name: reference/api/org/eclipse/gef/zest/fx/jface/class-use/IGraphAttrib
+ utesProvider.html
+SHA-256-Digest: t5pQogP2mb09yhEqrKyCNMkzwPV23tqbz2gNjjuzW6s=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/class-use/HideOnTyp
+ eHandler.html
+SHA-256-Digest: pddVpGdKwrDDJh+62v4S9Z4hcFeY35G2E7jvRlpBcE4=
+
+Name: reference/api/org/eclipse/gef/zest/fx/ZestFxModule.html
+SHA-256-Digest: NA4iFegGPAtxV1uZMlJyYFmFLYRQiSKrCqVUBVeG5HU=
+
+Name: reference/api/org/eclipse/gef/zest/fx/ui/parts/package-summary.htm
+ l
+SHA-256-Digest: 6s691QXVr6qEFLjTeWxA6lpMwkiEtcSbB7Gg7d3petg=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/package-tree.html
+SHA-256-Digest: D+AAU6sMeeaQ2vlLxmOyG4aH4snGMTKzkd8XTlA9zps=
+
+Name: reference/api/org/eclipse/gef/zest/fx/policies/class-use/HidePolic
+ y.ClearHoverHandlesOperation.html
+SHA-256-Digest: TxUII5M4p4WUE8j7WrhYBKFYXj4gFsZby04EKaT5Y3A=
+
+Name: reference/wiki/images/zest/GEF-Zest-FX-providers.png
+SHA-256-Digest: Eb6d7rUI+n4vwNyzjiVFOwHAmR0WyYM6AklN8NUP98M=
+
+Name: reference/api/org/eclipse/gef/zest/fx/ZestProperties.html
+SHA-256-Digest: oIwuvOnljlxFwJhe/+1JKdxAsmLheJfXyr8bhK965CQ=
+
+Name: reference/api/org/eclipse/gef/zest/fx/package-use.html
+SHA-256-Digest: wJXvg4qUJ5W0tttAmM3BHrl6A7AHPMA0l+Vbl1K4UGo=
+
+Name: reference/api/org/eclipse/gef/zest/fx/models/package-use.html
+SHA-256-Digest: novtReyZ4zH7EVO5LFAYnrhm3teevYaK/33o2RR3WW4=
+
+Name: reference/api/org/eclipse/gef/zest/fx/models/package-tree.html
+SHA-256-Digest: jwwwc3oAOxln/EP4MN4ocraKq32vsnUQvk52LDs7To8=
+
+Name: reference/api/org/eclipse/gef/zest/fx/jface/package-frame.html
+SHA-256-Digest: Bc0776LYkPGA3FRRc3bvHXoCmX/KJIDHC/vMrUWfekY=
+
+Name: reference/api/org/eclipse/gef/zest/fx/ui/package-use.html
+SHA-256-Digest: dLXuhpciHwEwHIBiU38CqYtpNtAvoASX0ZQw1RvMI7I=
+
+Name: reference/api/org/eclipse/gef/zest/fx/models/NavigationModel.html
+SHA-256-Digest: 02bL81ih/OCVWn6OM0Nv943jSpfgv9yQVk4Ju7BFltQ=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/BendAndRelocateLabe
+ lsOnSegmentDragHandler.html
+SHA-256-Digest: oDxBwK0eS0KwXmgSrpP1Ih1skDjPRCX9y1qHd/RFZMY=
+
+Name: reference/wiki/images/zest/GEF-Zest-FX-policies.png
+SHA-256-Digest: Ij9ocYShssCTLMr1rHlC9/+s42wlh7TkEKnx6wlBObc=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/class-use/BendFirst
+ AnchorageAndRelocateLabelsOnSegmentHandleDragHandler.html
+SHA-256-Digest: ISTk7uae3jXexvtwwRIk8Gycgk1RgVqd28YOueTS6qw=
+
+Name: reference/wiki/images/zest/GEF-Zest-FX-parts-handles.png
+SHA-256-Digest: FKqIWpLVqXpMwUlAm+xrX6dnT/e7U6vPCdQtyR0a25U=
+
+Name: reference/api/org/eclipse/gef/zest/fx/ui/parts/class-use/ZestFxUiV
+ iew.html
+SHA-256-Digest: fvAwjZ2PhUvHfUcs7/F30ozkSlqG71H8Nu2rvSjpnpA=
+
+Name: reference/api/org/eclipse/gef/zest/fx/package-frame.html
+SHA-256-Digest: BjpnfXXWeCXK936lPKad+zCq95TFcbO5PV7crw1CgQs=
+
+Name: reference/api/org/eclipse/gef/zest/fx/policies/class-use/HidePolic
+ y.html
+SHA-256-Digest: xweV7WKfXhBORyqJ58KiWQ5+FkDhT//QK2LVV4sEaWI=
+
+Name: reference/api/index-files/index-20.html
+SHA-256-Digest: BT3YTLoKjrBZK3oAxpwEpDuga2z9fJtnIv7H15g4SeA=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/HideHoverHandlePart.ht
+ ml
+SHA-256-Digest: cYJgsDivGKzhKAysZs2n2wYtgACgUX6PR1E7FzQKnPk=
+
+Name: reference/api/org/eclipse/gef/zest/fx/jface/class-use/ZestFxJFaceM
+ odule.html
+SHA-256-Digest: MS6VSUzeQn7/mnSZpBFca3W25kByztOMrnm35+HGu78=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/AbstractLayoutBeha
+ vior.html
+SHA-256-Digest: SIcmcysIjFn1Eb8zipyaHAZOpBPJd1+IeNXjJIjOp5c=
+
+Name: reference/api/org/eclipse/gef/zest/fx/operations/class-use/HideOpe
+ ration.html
+SHA-256-Digest: ufGSGRciXSq+K/NI4Xbp07kPlbgVbqs/MrMgHV98Mzk=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/GraphPart.html
+SHA-256-Digest: D08lgjJA7ucfEHhYfyyFtMS/MpH5pbn+bLvbjauFahQ=
+
+Name: reference/api/org/eclipse/gef/zest/fx/providers/package-tree.html
+SHA-256-Digest: WzXEusDNmDsjzEZcOqS43NihfJ2YfunbddCQQ5N9pc0=
+
+Name: reference/api/script.js
+SHA-256-Digest: UGOTFhtpJWj1iNaL6uz5rV0z8UerrZCdnN4SkY2857c=
+
+Name: reference/wiki/images/zest/GEF-Zest-FX-behaviors.png
+SHA-256-Digest: XAjn8Ttgmv/Ns4ldQnCtEaoEQMiD4bTr77AiQtzV5Yg=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/package-tree.html
+SHA-256-Digest: uJ3Lgo/3veNqMWUWshTG/EktpLdlmlmBGVNJ7iz5oqM=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/NodeLabelPart.html
+SHA-256-Digest: 4db97Ol8ztQYkmApMBdv/6P0Ia2uzEr8O/PqcJcbb4s=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/class-use/OpenParen
+ tGraphOnDoubleClickHandler.html
+SHA-256-Digest: c2ZjV6DrqgYIWaxCcxYKwo9g/4xBPzwa2F14iYdVw3s=
+
+Name: reference/api/org/eclipse/gef/zest/fx/operations/class-use/ChangeA
+ ttributeOperation.html
+SHA-256-Digest: wAlemugg4zTGJQ9GnpPT59UDdP6B8L1YhT8V/mTK/uI=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/class-use/BendAndRe
+ locateLabelsOnSegmentDragHandler.html
+SHA-256-Digest: pQNd5PjtOJ0S2U93Mivf/QT5tvhgGAFRZKz34qW5rk0=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/OpenParentGraphOnDo
+ ubleClickHandler.html
+SHA-256-Digest: JAicsfRcBujpypuzi50Bi+M3cDaEasFYRJGHKdCU+O8=
+
+Name: reference/api/index-files/index-17.html
+SHA-256-Digest: d82vnIS4Sy9ybU599Imm7ARryX/Xp/wVhN6Z6ESd5wA=
+
+Name: reference/api/allclasses-frame.html
+SHA-256-Digest: dGFToHOUQVj93KIL0qTdUVh4FAEfxUgmOAK9BjZoA58=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/class-use/GraphLay
+ outBehavior.html
+SHA-256-Digest: 6yogaDQxXhP6ZdgOZOLl5bV84WQQx60ud1k3PltyPMY=
+
+Name: reference/wiki/images/zest/GEFZest-HiddenNeighborsFeedback.png
+SHA-256-Digest: iozk53WDUZppLAwjvC8hLtBloEfjuwoq4Ya3MunKXjk=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/class-use/ZestFxSelect
+ ionHandlePartFactory.html
+SHA-256-Digest: 5Sh5Z4C2kODKq47GQyb68JFavqil5dzsRUKjN4s0+3o=
+
+Name: reference/api/org/eclipse/gef/zest/fx/package-tree.html
+SHA-256-Digest: lrqvXVIsvA1Wnly6Zlb5qSwn07Sru/vt6gVz9XGSMsY=
+
+Name: reference/api/index-files/index-16.html
+SHA-256-Digest: GzQQzYXWRWJ93hCYKdniwwoc98TnTlmef/9zNcLRdus=
+
+Name: reference/wiki/images/zest/GEF-Zest-FX-models.png
+SHA-256-Digest: 4vT1iRW6eBQJubq8oRfUKXe2WTpRQR/8IPwnDeW/VG8=
+
+Name: reference/api/org/eclipse/gef/zest/fx/models/class-use/NavigationM
+ odel.ViewportState.html
+SHA-256-Digest: 4rKjm0Ug8Il8YYUnlegxpvuEos/FU4yMYmBb5BIL0Ng=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/NodePart.NestedGraphIc
+ on.html
+SHA-256-Digest: 520Kx1vl/CjYPOp6pNHPSXs9LSeiF30bUJpTfuZunWw=
+
+Name: reference/api/org/eclipse/gef/zest/fx/ui/package-frame.html
+SHA-256-Digest: xn93gbz2cqdlAbSX5aCBQ92z1sZzfssaUUZCqSyGyFQ=
+
+Name: reference/api/org/eclipse/gef/zest/fx/policies/class-use/Transform
+ LabelPolicy.html
+SHA-256-Digest: ZFhJqoG1HuSN3HD+kYRhzz+ugwH9/sWHoU0Rny0nfTo=
+
+Name: reference/api/index-files/index-7.html
+SHA-256-Digest: RhWMqi14VUeLwAvk1j124aw0HoR9DfYMnIbcCn4PheM=
+
+Name: reference/api/index-files/index-1.html
+SHA-256-Digest: 7j5gxmS6/StPaDYMGt8y8nCXSEpn/ZexfX9IL9Om/1U=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/class-use/NodePart.Nes
+ tedGraphIcon.html
+SHA-256-Digest: gnpSjvE9imOSdHwz5Yb4Ogxhd2t8W05OWrQrpcuG29o=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/package-tree.html
+SHA-256-Digest: IWqzNx+P7CUJ5SBZfLw3YPDdI1V/tqnDVcCuBVVC+i0=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/ZestFxContentPartFacto
+ ry.html
+SHA-256-Digest: Sx2RHkKzN0X3O+scn7lbT65H05MDrDTaLKlDnErijX8=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/class-use/AbstractLabe
+ lPart.html
+SHA-256-Digest: znT5Bhav5Ty4xwOJcGJ83r7suMvcaus3bndUsgWSkgs=
+
+Name: reference/api/org/eclipse/gef/zest/fx/jface/ZestFxJFaceModule.html
+SHA-256-Digest: /U6j9n9Yp2a4hf9AE5hgUgN1IYpMD6g5YrEtwR+zRZY=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/EdgeLayoutBehavior
+ .html
+SHA-256-Digest: WxNZyLktNqGxk1Xa7NbsmEXQkT9/LUaKSdy578i3wtw=
+
+Name: reference/wiki/images/zest/GEFZest-HidingHoverHandles.png
+SHA-256-Digest: qkFAfXTTUFBUxB5EtlyLVvPrUhjiKurIMCz57qMRRpQ=
+
+Name: reference/wiki/images/zest/GEF-Zest-FX-JFace-root.png
+SHA-256-Digest: amUMqztzYSZXOP74yDymIzdd+xnKEypovWzJhoz8ONI=
+
+Name: reference/api/index-files/index-10.html
+SHA-256-Digest: IiEcTYVp2QQscoVt2EuMSsoKLn1UhBdrjVXQ3v516bM=
+
+Name: reference/api/org/eclipse/gef/zest/fx/ui/parts/package-use.html
+SHA-256-Digest: QfjoPz7HFwzaJ2YxXAjgLry3ObCWF+91qwisl0hcDwU=
+
+Name: reference/wiki/images/zest/GEF-Zest-FX-root.png
+SHA-256-Digest: zdM30bhkSNq7vOBwxRtoR3pxQjCRskHpmS7XFMs4KuU=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/TranslateSelectedAn
+ dRelocateLabelsOnDragHandler.html
+SHA-256-Digest: O7jdYiZTvJGKAnFPue0p1HkugdhULkqfp89HEyWJXKM=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/GraphLayoutBehavio
+ r.html
+SHA-256-Digest: el/t3PXzFsuM/C1YPahqhysM0qZgantrzU1n4IJg+uk=
+
+Name: reference/api/org/eclipse/gef/zest/fx/jface/IGraphContentProvider.
+ html
+SHA-256-Digest: QxGYjxAd+oiaKkc/beotaW12sSr0rOGgGMaiCGNsI+4=
+
+Name: reference/api/overview-tree.html
+SHA-256-Digest: +3t6HNGJDtlyKQg14bwqDRrVemddc7bdzZPxblgom8Q=
+
+Name: reference/api/org/eclipse/gef/zest/fx/policies/ShowHiddenNeighbors
+ Policy.html
+SHA-256-Digest: zzyMtrfhu6T0YSxe4fuKmfpWBPUJXKscai8vjm2jIyo=
+
+Name: reference/wiki/images/zest/GEF-Zest-FX-UI-parts.png
+SHA-256-Digest: YVEfT+pGVqAuqJVj8SlNcryv3UqDx75yWiuOqGrnFTE=
+
+Name: reference/api/index-files/index-13.html
+SHA-256-Digest: XN4MNw1awtWshmC3Kq1zMy6RzN7a5YRt9tbYTQFc0fU=
+
+Name: reference/api/org/eclipse/gef/zest/fx/models/class-use/HidingModel
+ .html
+SHA-256-Digest: pKAQr7UfyD+wi8iTnZEdUXRE4O2sUBKiCvoP3907p/s=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/class-use/EdgeLabe
+ lHidingBehavior.html
+SHA-256-Digest: CLuNkU+pnZGIVoPSZmWG+4xxK8XrU3ndcUeBhQoMmRk=
+
+Name: reference/api/org/eclipse/gef/zest/fx/providers/package-frame.html
+SHA-256-Digest: Gsz/CZ9300BooZdOt6B06KkfkpzT+vi7nD92gRqR2XA=
+
+Name: reference/api/index-files/index-6.html
+SHA-256-Digest: 6rqoDyq+dd05fepZ+JcvojmxsJ2Uww0rbuPC/vPjjRY=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/class-use/NodeHidi
+ ngBehavior.html
+SHA-256-Digest: 0wM56AmOiYn2Ju6E+ohLqIR1cUyOe2YkSrKGu9kpFFw=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/class-use/Abstract
+ HidingBehavior.html
+SHA-256-Digest: Kxtr3PyyK/wYvB9EC0WSUeSmxnp7RrM8DrrRM+RYaCo=
+
+Name: reference/api/org/eclipse/gef/zest/fx/jface/package-summary.html
+SHA-256-Digest: HmZhZDK9meK9x6LZ8jnE9PnfPvTOIEuCArEim8SFH5E=
+
+Name: reference/api/org/eclipse/gef/zest/fx/policies/class-use/ShowHidde
+ nNeighborsPolicy.html
+SHA-256-Digest: NeGcUqdZVlPM0sUWEa9lab2Sp444DLDbaSWcUDChYv0=
+
+Name: reference/api/index-files/index-11.html
+SHA-256-Digest: 7EkoLoQbMhi7wp/e6khrO4KRYT4pHyXffosZWz/5Irs=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/package-summary.ht
+ ml
+SHA-256-Digest: 2uomo1DJ5QZKkhiQuRsjR+xq6zAQJBkYa6cvYn3TPNw=
+
+Name: reference/api/org/eclipse/gef/zest/fx/policies/HidePolicy.html
+SHA-256-Digest: qLpVL/Vbjw4O6ugNJ+r8yCyRIzWHTB+RjhH3F2ul1JI=
+
+Name: reference/api/org/eclipse/gef/zest/fx/ui/parts/package-tree.html
+SHA-256-Digest: /BTbbZ0QfPSvR9AJwEmE/EJ2jwHoC70wp7L9WQwkjsg=
+
+Name: reference/api/org/eclipse/gef/zest/fx/policies/HidePolicy.ClearHov
+ erHandlesOperation.html
+SHA-256-Digest: ISm6Kq6kPI+638Ge2RQLb+OBlQcLkk9OF93Kgr5P/5w=
+
+Name: reference/api/org/eclipse/gef/zest/fx/policies/SemanticZoomPolicy.
+ html
+SHA-256-Digest: v9TrmdVg6GCg7O0EHvgX+5N1RmU6i26QFlFHgeLEHiM=
+
+Name: reference/api/index-files/index-8.html
+SHA-256-Digest: uZH0i7mDwJvh6n70WzVJ9REYzRhw8QH5oTQrdmmO+7A=
+
+Name: toc.xml
+SHA-256-Digest: FU27xRclFZRCuzk/Qp0gj3KHN+IEXsbCuBAxKpi50y8=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/BendFirstAnchorageA
+ ndRelocateLabelsOnSegmentHandleDragHandler.html
+SHA-256-Digest: 8zu0auFaFfo/UDqN22VjppIbrqeXYkCMHnz1Ge/VcO8=
+
+Name: reference/api/constant-values.html
+SHA-256-Digest: B6dMHGiI7l6GFF/m+YTNRRkJGY3S+MPNOoC2B8wElko=
+
+Name: reference/api/index-files/index-15.html
+SHA-256-Digest: Xe7Z6xOn1VSQe+Hi936w7BGrtezlAqlimdNxwHCVlqU=
+
+Name: reference/api/org/eclipse/gef/zest/fx/jface/package-tree.html
+SHA-256-Digest: WXxuTW31vvXDoK2ao7wPRO7/H0X15JpQiPPbCrCzxAQ=
+
+Name: reference/api/org/eclipse/gef/zest/fx/ui/package-summary.html
+SHA-256-Digest: uZz6jJIRtezaLz3Mkb9Mo1c+6BbuCW2PvRVHY9v8AxU=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/package-use.html
+SHA-256-Digest: Y9ZLEqnsKa0ml1na6IXqXo0KWPagVpQYiORtsaBrgF8=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/class-use/ZestFxRootPa
+ rt.html
+SHA-256-Digest: gCda2iJjrcKi1LobSExvvX4h9fj7lAv4doVQDvgSFSs=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/package-frame.html
+SHA-256-Digest: ShekSfb67cCcG5MiruPT8JmUbR0+kYFX3n6Fut8HFPI=
+
+Name: reference/api/index-files/index-2.html
+SHA-256-Digest: PU2Rekyd67kL4q1pK+zHpKHgpEX4jgLknDjoyRjXkEo=
+
+Name: reference/wiki/images/zest/GEF-Zest-FX-operations.png
+SHA-256-Digest: PoAYonupgsl5QsrhuUWdWKMsSFwTRVa8FH7zeS8odaU=
+
+Name: reference/api/org/eclipse/gef/zest/fx/jface/class-use/IGraphConten
+ tProvider.html
+SHA-256-Digest: zOaoeyod/OrziErOA0wnYooOpifzMDgGBEBFmfPmEpU=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/EdgeLabelHidingBeh
+ avior.html
+SHA-256-Digest: BOgyRoL+N3FzeY8d5tSwl2T/1vhuDYzrj3B9gzszzbE=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/EdgePart.html
+SHA-256-Digest: nhimntPH4pS8lIZoJ/158pyz91nLZjtRQq/aWDeLxg4=
+
+Name: gef_eclipse_logo_32.png
+SHA-256-Digest: 3gjt8pGYyF7O9G8DmyVCJGnZ0uzj6jfJwG5MgJjWJoQ=
+
+Name: reference/api/org/eclipse/gef/zest/fx/jface/ZestContentViewer.html
+SHA-256-Digest: +vZcV0uaKHErWltoHY1LTAT7uFY6pIhtzLCDwZGwcwc=
+
+Name: reference/wiki/images/zest/GEF-Zest-FX-parts-feedback.png
+SHA-256-Digest: vHTG6MTQ9rHZUqTvO59s9oi7ti4gMiJBTXcpIt53UFw=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/class-use/HideFirst
+ AnchorageOnClickHandler.html
+SHA-256-Digest: hBgwJgyM0gOYV9GsCVDbi5N4X9WiIuuglSnLGLTnsSc=
+
+Name: reference/api/deprecated-list.html
+SHA-256-Digest: kJo97KFVHeISBUS4oJbQTpSwP0XzjW07zkelVIzMKgc=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/class-use/NodeLabelPar
+ t.html
+SHA-256-Digest: mg0ZBscIMO4TsJk7oldERQr49Ac9FhhRl/qCVZ3uYaI=
+
+Name: reference/api/package-list
+SHA-256-Digest: hO3Lr7iOGTJL11m/lqR/VXSCYEX3b+AoqNVF0KMEG0E=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/ZestFxHoverIntentHandl
+ ePartFactory.html
+SHA-256-Digest: OQ6AK05J6+OfPsTdcyrqZc17odNlyunPhOgCmwOfiro=
+
+Name: reference/api/org/eclipse/gef/zest/fx/ui/parts/package-frame.html
+SHA-256-Digest: w1SEOp1yZz2fIAMqoehVoDldpXbLW+hdcPnukKsqebI=
+
+Name: reference/api/org/eclipse/gef/zest/fx/policies/package-use.html
+SHA-256-Digest: htiCt3SzTd4DLmCPayB+PUyQnrBmnYcKyoq78MIpj2Y=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/class-use/EdgeHidi
+ ngBehavior.html
+SHA-256-Digest: rD2F5mjH7moMnghi79tsfa6Q7M7hdu3V9i7eJ10VJB8=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/LabelOffsetSupport.
+ html
+SHA-256-Digest: eGasD6muXHbKmtt7BSC/nraHeYbshVnH3KRtUAtQnmU=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/class-use/NodePart.htm
+ l
+SHA-256-Digest: 7rzZeP47w6SedDgSJiktHbKs8DgDES/9eL+beQhqYAI=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/class-use/GraphPart.ht
+ ml
+SHA-256-Digest: 7i0S4yQsq4fQNpn7T+QcnCdVGdeke7rUSt8c+ZpbZ6E=
+
+Name: reference/api/org/eclipse/gef/zest/fx/operations/class-use/Navigat
+ eOperation.html
+SHA-256-Digest: vKACSoNrGl74/vnpj7UbDkYPimvkv4WKcH/Jwy1bOzc=
+
+Name: reference/api/org/eclipse/gef/zest/fx/operations/class-use/ShowHid
+ denNeighborsOperation.html
+SHA-256-Digest: CCgtIBf76QIUrKZgdFfVSgfnM2o2jPutQ7jOn3xFqCw=
+
+Name: reference/api/org/eclipse/gef/zest/fx/providers/package-summary.ht
+ ml
+SHA-256-Digest: hx7hpvxBAXRC5Os0+we0dxl9TJscunoXvFsvA8uLV8U=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/class-use/EdgeLayo
+ utBehavior.html
+SHA-256-Digest: yI58srkmQYF9acKGuI2CGeuXyFPm4NB16YPx4JJFcGw=
+
+Name: about.properties
+SHA-256-Digest: CmthlPGRlqx9Pfz1qveHetBjyn7slRmmQPYMjKoPVyg=
+
+Name: reference/api/index-files/index-18.html
+SHA-256-Digest: SjXIjGwZe8OVI8TGzskGZrch8t8nAb8GZA2HqfxjUPA=
+
+Name: reference/api/stylesheet.css
+SHA-256-Digest: G9fhf+PVG813X/8Ib2axn8l6L0ZySPOC2DEMaxFMTV4=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/class-use/ShowHiddenNe
+ ighborsHoverHandlePart.html
+SHA-256-Digest: NAzFXW458/R/eY/s42EOThpjljvJKuD7yDpRClt4qGo=
+
+Name: reference/api/org/eclipse/gef/zest/fx/jface/package-use.html
+SHA-256-Digest: IuVJVZb5kDVuAsuIquYpetJy62Sna4JH+wrtX1CTPPc=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/class-use/NodeLayo
+ utBehavior.html
+SHA-256-Digest: hsVvs5xtBxII/zx74lESval731N3hXLZPZZ+hzvgZZg=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/class-use/OpenNeste
+ dGraphOnDoubleClickHandler.html
+SHA-256-Digest: zTYLytVjIra/58wc26FFapJcPb1a/9ibBHzf5d4diMg=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/class-use/ShowHidde
+ nNeighborsOfFirstAnchorageOnClickHandler.html
+SHA-256-Digest: YtiSfPk5F+N44wfWKQj93Q2YMhjIy84phsEyx3mcKvA=
+
+Name: reference/api/org/eclipse/gef/zest/fx/ui/parts/ZestFxUiView.html
+SHA-256-Digest: HSPyH64dNu0jmBKrQ8KYMCuWWfD2SAFUWlp7G/nrH8Y=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/class-use/HiddenNeighb
+ orsFeedbackPart.html
+SHA-256-Digest: Tct6MITexjktXWb0ek/qD7a8SuPnbw5IeznMOti5fDo=
+
+Name: reference/api/index-files/index-19.html
+SHA-256-Digest: g+XeAkfM7eizuQX1Dh5tzOgZVzrrmJo5Bgpr2FgVub8=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/ShowHiddenNeighbors
+ OfFirstAnchorageOnClickHandler.html
+SHA-256-Digest: SPjxQYwDkxnpZQt6RYvHX4OwTMFAAqPAcQfjcNQZwtY=
+
+Name: reference/wiki/images/zest/components.zest.jpeg
+SHA-256-Digest: C/ihT8DGR87LC7CvzUoS6XfbVvLHsa4wexB6JDmq/6A=
+
+Name: reference/api/org/eclipse/gef/zest/fx/operations/ChangeAttributeOp
+ eration.html
+SHA-256-Digest: rs8BtM8ccV+8primIhjqJAc/X+d/CUIpXguH5cBdaAM=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/class-use/ZestFxSelect
+ ionFeedbackPartFactory.html
+SHA-256-Digest: oN3VEwhAiLnJRTBVdvUSmRWRJ9tgD+hcuMU5wNO9+sQ=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/package-summary.html
+SHA-256-Digest: z2j1RXBnVS5/2jqVZA0cpq+gl3u6+JAklw5yIDRHVQo=
+
+Name: reference/api/help-doc.html
+SHA-256-Digest: ly9cfVtwPvPlwZGQ9AfnSWGFCtuagoJSBRxY0rQILk0=
+
+Name: reference/api/org/eclipse/gef/zest/fx/policies/package-summary.htm
+ l
+SHA-256-Digest: rL0MQGuyOSg7rhRZ5pv1wTyBKxe639Yjo0aHe1hSVl8=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/package-use.html
+SHA-256-Digest: Y6p2b2b8i/iQnmhqVrQTV+p+NoJq66ry4oBM5xHa2ME=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/class-use/Abstract
+ LayoutBehavior.html
+SHA-256-Digest: +9HcVLP9WjKz8TA3Dn+D8JxkXJcTQ9TPW7d3QHcw8fo=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/class-use/Translate
+ SelectedAndRelocateLabelsOnDragHandler.html
+SHA-256-Digest: pR22u62oOG/UEjxgxC7/SXmkf9/8EnGM3gZoMYr+pac=
+
+Name: reference/api/org/eclipse/gef/zest/fx/policies/class-use/SemanticZ
+ oomPolicy.html
+SHA-256-Digest: zG9J4WqWES7qieAYYwOWlxhbj08vXBvDpVI+pA+nWjk=
+
+Name: reference/api/org/eclipse/gef/zest/fx/ui/package-tree.html
+SHA-256-Digest: H+Hllmhs4Z7181Ag0H7UflSdayXeJ0fQUXAutSsXcmI=
+
+Name: reference/api/org/eclipse/gef/zest/fx/policies/package-frame.html
+SHA-256-Digest: bAH474qFghnMV9Jecg6j8hqFC74NoB/wshwtKOr8/Wo=
+
+Name: reference/api/org/eclipse/gef/zest/fx/ui/ZestFxUiModule.html
+SHA-256-Digest: BBTiJbrkpRxuIp2Zy4ANQ6OL1Fp+18UEOEIrCcz8pi0=
+
+Name: reference/api/org/eclipse/gef/zest/fx/providers/class-use/NodePart
+ AnchorProvider.html
+SHA-256-Digest: +8mwC3CbSCaoatPPMfy5ZsY78WmqwyyNma1dFq5AwGA=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/OpenNestedGraphOnDo
+ ubleClickHandler.html
+SHA-256-Digest: F9RO/zfwq7XnqmayLLGnBlkNjs4QKa/MWNUOuruVLkc=
+
+Name: reference/wiki/images/zest/GEF-Zest-FX-UI-root.png
+SHA-256-Digest: tytDVrB/CwPowChCUMKYtNsouWnWip9IOy9ihTkxm7s=
+
+Name: reference/api/overview-summary.html
+SHA-256-Digest: GtEboc6AkRDIutB4CFrVPi62a+uFKaTgJhvlsWdxyBA=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/NodeLayoutBehavior
+ .html
+SHA-256-Digest: g1rGO76SpVkgviG88JF70U7uTXo+1jUoQtWYsnpxPOM=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/class-use/EdgeLabelPar
+ t.html
+SHA-256-Digest: IThwHpHTtADz3+68BL7TRLzw0j/zBEObSphP6/bOCTM=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/package-use.html
+SHA-256-Digest: b6wHX2sM+dUZt3LXhn5htFyXpW6BPpwZAw4+nXbwxxw=
+
+Name: reference/api/org/eclipse/gef/zest/fx/providers/package-use.html
+SHA-256-Digest: kXSzq8wLqDWza+S9KE4hCd0+kJrDHLZLSqSJDG3r5qU=
+
+Name: reference/api/allclasses-noframe.html
+SHA-256-Digest: FvDdm8nIv55nOt5cirzK4/V11GU+8Nafp2XaaGDyS/E=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/class-use/HideHoverHan
+ dlePart.html
+SHA-256-Digest: 1InHrX1JtdwlcIJl6NWUU5RBeqH7F9Dn/q1ALrEBSbY=
+
+Name: reference/api/org/eclipse/gef/zest/fx/class-use/ZestProperties.htm
+ l
+SHA-256-Digest: cDAIoudFBP3pAoZKtJjRdAKJDeGYnGOH8c779hA/T5o=
+
+Name: reference/api/index.html
+SHA-256-Digest: SsCSBLa3gzdklP45IdtNbw8+duJm274QaT1Sb5isEwc=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/HiddenNeighborsFeedbac
+ kPart.html
+SHA-256-Digest: Q8e3dh7w9R1W9Gij6fSf3Ng0nslsh0pVVwo6RAFjRNs=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/EdgeLabelPart.html
+SHA-256-Digest: nReN4A69RXx+iS1FhFLRb0svHkJpIxObl0mVm/MB7l0=
+
+Name: reference/wiki/Zest.html
+SHA-256-Digest: pEiiIzksT/0k8rNk0Fcwrkq412caYo/JsW/+d5PBS5g=
+
+Name: reference/api/org/eclipse/gef/zest/fx/operations/ShowHiddenNeighbo
+ rsOperation.html
+SHA-256-Digest: PE273FVyuPMOckVmfh8W/pEtKci7FcNeJgSibTGN+rA=
+
+Name: about.html
+SHA-256-Digest: SIo6368v6ECCRmakfWp6tu6+3B/aiqVh/Gus3CAyZtU=
+
+Name: reference/wiki/images/zest/GEF-Zest-FX-parts-contents.png
+SHA-256-Digest: R0DCf/2EIvWfN7CwYu9lN0DSq6g8gT0GNBVzTDwh0gE=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/EdgeHidingBehavior
+ .html
+SHA-256-Digest: Tyq4Hs175cT8K20qyqTD0lhE4hDC4WTl6x1USaPYO3A=
+
+Name: reference/api/index-files/index-4.html
+SHA-256-Digest: XA9D0YtkDV0uM5bJwmgWPZlunrNRkjJuN+Hw5DjYGCw=
+
+Name: reference/api/org/eclipse/gef/zest/fx/ui/class-use/ZestFxUiModule.
+ html
+SHA-256-Digest: NjGBYJ0d+8yOXtWDbeTbm+RqeL3w44119IFLWgxmi24=
+
+Name: reference/api/org/eclipse/gef/zest/fx/policies/TransformLabelPolic
+ y.html
+SHA-256-Digest: e+RDsCKQuJs0KEa6Lf/20v5HsREPs0sYflP9bpMfYPQ=
+
+Name: reference/api/org/eclipse/gef/zest/fx/class-use/ZestFxModule.html
+SHA-256-Digest: BSGi6Lfb2HGuXOx3DeKVl+tpb6deEUUvcs39xs5mJIs=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/package-summary.htm
+ l
+SHA-256-Digest: 3kTmFsQISmFg5NKTZ6tMgJJwxQQ5xyrmE1g6rp3uE6w=
+
+Name: reference/api/org/eclipse/gef/zest/fx/operations/HideOperation.htm
+ l
+SHA-256-Digest: tyh7nTlz7Vw4qU4u56+1vb7f+AlVMgjaAG5jMWh+PRs=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/ZestFxSelectionFeedbac
+ kPartFactory.html
+SHA-256-Digest: VVAFikUdt8UYXTBlUhn5gs12DZ4D0pJUan3ulVyOy6A=
+
+Name: reference/api/org/eclipse/gef/zest/fx/handlers/class-use/ShowHidde
+ nNeighborsOnTypeHandler.html
+SHA-256-Digest: MAzLPMMRREAEm/MOGcHgU4yp8lI8cKijZ4Eo1qACseg=
+
+Name: reference/api/org/eclipse/gef/zest/fx/models/class-use/NavigationM
+ odel.html
+SHA-256-Digest: sGGOEd419fwbhJTzGXCGhZ9mZIdryy/LJUNhnu4MUAI=
+
+Name: reference/api/org/eclipse/gef/zest/fx/behaviors/AbstractHidingBeha
+ vior.html
+SHA-256-Digest: VgNAmFEky9zte7qofT//CAG1ZjpvGTIAG3uyPo73n9I=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/ShowHiddenNeighborsHov
+ erHandlePart.html
+SHA-256-Digest: scDTR9/Ud6zcw7CQ43/CPRhmsCbi3MagbntzFXN8F5o=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/ZestFxRootPart.html
+SHA-256-Digest: nhpow/emTKr+laUFiXd3INq9F0be7iV+Ywy7uLM+qMg=
+
+Name: reference/api/org/eclipse/gef/zest/fx/parts/package-frame.html
+SHA-256-Digest: WJ4N/Z0yL59ALeAVUbeZBiMJzgIbbssXSJYA0/AIlKo=
+
+Name: reference/api/overview-frame.html
+SHA-256-Digest: wH9OuHSN4o/w+W8LXP+2hlbRTpYmrGeTH1QMo4xDJxA=
+
